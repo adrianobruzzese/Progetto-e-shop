@@ -1,0 +1,75 @@
+footer{
+    background-color: $darkBlue;
+}
+
+.footer-container{
+    width: 100%;
+    padding: 20px 20px 10px;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+}
+
+.social a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 40%;
+}
+
+.social a i{
+    font-size: 1.4em;
+    color: black;
+    opacity: 0.9;
+    padding: 5px;
+}
+
+.social a:hover{
+    background-color: $darkBlue;
+    transition: 0.5s;
+}
+
+.social a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.footer-nav{
+    margin: 20px 0;
+}
+
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.footer-nav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.8;
+    transition: 0.5;
+}
+
+.footer-nav ul li a:hover{
+    opacity: 1;
+}
+
+.footer-bottom{
+    background-color: $darkBlue;
+    padding: 5px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.footer-bottom p{
+    color: white;
+}
+
+
+

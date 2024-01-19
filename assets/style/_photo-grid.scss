@@ -1,0 +1,42 @@
+h2 {
+  font-size: 3rem;
+  color: $light;
+  -webkit-text-stroke-width: 0.4px;
+  -webkit-text-stroke-color: $darkBlue;
+}
+
+.photo-grid {
+  max-width: 1224px;
+  width: 90%;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.catalog {
+  margin-bottom: 2rem;
+}
+
+.photo-gallery {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  height: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.photo img {
+  width: 95%;
+  height: 95%;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .photo-gallery {
+    flex-direction: column;
+  }
+}
